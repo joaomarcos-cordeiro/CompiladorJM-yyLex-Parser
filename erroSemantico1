@@ -1,0 +1,5 @@
+
+A = A;
+
+
+//atribuicao do A nele mesmo - erro semantico

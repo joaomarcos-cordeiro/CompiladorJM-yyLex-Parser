@@ -1,0 +1,18 @@
+a = 10;
+b = 15;
+
+boolean = positivo; 
+
+x = positivo;
+y = negativo;
+
+sempreq (x) {
+ olhar a ;      
+
+}
+
+//"sempreq" = IF
+//"positivo"  = TRUE
+//"negativo" = FALSE
+// "olhar" = printf
+

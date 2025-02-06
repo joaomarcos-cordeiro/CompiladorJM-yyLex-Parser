@@ -1,0 +1,26 @@
+//Empresa Avaliacao de Qualidade 
+
+
+NotaReclameaqui = 10;
+Nota_1 = 10;
+Nota_2= 4;
+Nota_3 = 8;
+
+acordoComercial  = 0; 
+
+Media = (Nota_1 + Nota_2 + Nota_3)/3;
+
+
+tempoq (Nota_1 >= Nota_2){             					//tempoq = WHILE
+
+    sempreq ((NotaReclameaqui<4) V (Media<7 + T)) {        			//sempreq = IF  // V = ||
+        acordoComercial = 1;                   	//1 Reprovado AcordoComercial
+        olhar acordoComercial ;                                       	//olhar = printf	
+    }quandon{                                         			//quandon = ELSE
+        olhar acordoComercial ;               //0 Aprovado AcordoComercial 
+    }
+  }
+
+
+
+// Soma de uma variavel T sem valor em (Media<7 + T) - erro semantico

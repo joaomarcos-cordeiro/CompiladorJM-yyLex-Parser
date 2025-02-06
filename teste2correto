@@ -1,0 +1,15 @@
+A=10;
+B=20;
+C=2;
+
+
+tempoq (B>A) {
+A = A + C;
+olhar A;   
+}
+
+
+
+
+//"tempoq" = While
+

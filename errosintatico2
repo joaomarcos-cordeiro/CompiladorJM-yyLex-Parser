@@ -1,0 +1,16 @@
+A=10;
+B=20;
+C=2;
+
+
+tempo_escrita_errada_do_WHILE (B>A) {
+A = A + C;
+olhar A;   
+}
+
+
+
+//ao escrever while de forma errada, erro sintatico a seguir do () pois o compilador esta esperando o [=] para fazer a atribuicao /  variavel [=] valor ;
+
+// erro sintatico ao final dos parenteses pois não é reconhecido pela forma errada da escrita
+

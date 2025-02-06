@@ -1,0 +1,11 @@
+A=10;
+B=20;
+C=2;
+
+
+tempoq (B>D) {
+A = A + C;
+olhar A;   
+}
+
+//B>D nao temos o valor de D - erro semantico dentro da funcao WHILE(tempoq)

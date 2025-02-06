@@ -1,0 +1,28 @@
+//Empresa Avaliacao de Qualidade 
+
+
+NotaReclameaqui = 10;
+Nota_1 = 10;
+Nota_2= 4;
+Nota_3 = 8;
+
+acordoComercial  = 0; 
+
+Media = (Nota_1+Nota_2+Nota_3)/3;
+
+
+x = positivo;
+y = negativo ;
+
+tempoq (Nota_1 >= Nota_2){             					//tempoq = WHILE
+
+    sempreq (x) {        			//sempreq = IF  // V = ||
+        acordoComercial = 1;                   	//1 Reprovado AcordoComercial
+        olhar acordoComercial ;                                       	//olhar = printf	
+    }quandon{                                         			//quandon (quandonao)= ELSE
+        olhar acordoComercial ;               //0 Aprovado AcordoComercial 
+    }
+  }
+
+//"positivo" = true 
+//"negativo" = false
