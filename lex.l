@@ -11,15 +11,12 @@ class Node;
 
 int yyerror(const char *s);
 
-	//  arquivo.l responsável por fazer a declaração dos tokens. A partir da criação do (.l) o ao colocar o comando Flex irá gerar o analisador lexico em um arquibo (.yy.c) 
+	//  arquivo.l responsável por fazer a declaração dos tokens. A partir da criação do (.l) ao colocar o comando Flex irá gerar o analisador lexico em um arquivo (.yy.c) 
   // dentro desse arquivo estará a  função yylex que é o analisador lexico. 
 	// posteriormente a função yylex será utilizada no .y para gerar os tokens para o parser(analisador sintático) para que ele possa identificar os respectivos tokens 
 
 
 %}
-
-                                  
-                                  
 %option yylineno
 
 %%
