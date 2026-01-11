@@ -1,4 +1,4 @@
-## Compiler
+## Compiler Lexer - Parser - Abstract Syntax Tree
 Desenvolvimento de um alfabeto próprio de linguagem, a partir da criação do compilador capaz de processar essa linguagem e gerar a Árvore de Sintaxe Abstrata (AST). Foram feitos testes que validam seu funcionamento, além de arquivos contendo erros propositais para verificar a detecção e o tratamento adequado de falhas - UFJ
 
 ## ~~~English
